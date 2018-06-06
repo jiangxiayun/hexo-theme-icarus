@@ -16,18 +16,18 @@ customize:
     profile:
         enabled: true # Whether to show profile bar
         fixed: true
-        avatar: css/images/avatar.png
+        avatar: css/images/avatar.jpg
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: PPOffice
-        author_title: Web Developer & Designer
-        location: Harbin, China
-        follow: https://github.com/ppoffice/
+        author: JiangXY
+        author_title: 求知若饥 虚心若愚
+        location: HangZhou, China
+        follow: https://github.com/jiangxiayun
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
-    thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    thumbnail: true # enable posts 缩略图, options: true, false
+    favicon: css/images/favicon.ico # path to favicon
     social_links:
-        github: http://github.com/ppoffice/hexo-theme-icarus
+        github: https://github.com/jiangxiayun
         twitter: /
         facebook: /
         dribbble: /
@@ -49,7 +49,7 @@ search:
     swiftype: # enter swiftype install key here
     baidu: false # you need to disable other search engines to use Baidu search, options: true, false
 
-# Comment
+# Comment 评论
 comment:
     disqus:  # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
@@ -85,7 +85,7 @@ plugins:
     google_analytics: # enter the tracking ID for your Google Analytics
     google_site_verification: # enter Google site verification code
     baidu_analytics: # enter Baidu Analytics hash key
-    mathjax: false # options: true, false
+    mathjax: true # options: true, false
 
 # Miscellaneous
 miscellaneous:
